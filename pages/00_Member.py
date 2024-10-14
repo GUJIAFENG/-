@@ -1,4 +1,13 @@
 import streamlit as st
+from streamlit_extras.let_it_rain import rain
+
+def example():
+    rain(
+        emoji="❄️",  # 可以添加您想要的 emoji，例如 "🌧️"
+        font_size=54,
+        falling_speed=5,
+        animation_length="infinite",
+    )
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.title("小組成員")
 
