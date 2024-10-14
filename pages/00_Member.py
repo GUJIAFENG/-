@@ -9,8 +9,9 @@ st.write("""
 """, unsafe_allow_html=True)
 st.image("./img/82123.jpg", width=300)
 
-st.write("""   
-                    """)  # 添加空白行來增加間距
+st.write("""                                                                                                
+                                                                                                             
+                                             """)  # 添加空白行來增加間距
 
 # 第二位成員
 st.write("""
