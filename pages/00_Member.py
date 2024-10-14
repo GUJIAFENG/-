@@ -15,4 +15,4 @@ st.markdown("<br><br><br>", unsafe_allow_html=True)
 st.write("""
 <span style="font-size:20px;">機械設計系 41023118 吳政憲</span><br>
 """, unsafe_allow_html=True)
-st.image("./img/2.png", width=350)
+st.image("./img/2.jpg", width=350)
