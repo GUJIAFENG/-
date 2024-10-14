@@ -5,7 +5,7 @@ def example():
     rain(
         emoji="❄️",  # 可以添加您想要的 emoji，例如 "🌧️"
         font_size=54,
-        falling_speed=5,
+        falling_speed=7,
         animation_length="infinite",
     )
 st.markdown("<br><br>", unsafe_allow_html=True)
