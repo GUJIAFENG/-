@@ -2,11 +2,7 @@ import streamlit as st
 
 st.title("實驗一: 流體靜力學")
 
-st.write("""
-<span style="font-size:25px;">hello 我是第七組川哥。</span>
-<br>
-<span style="color:red; font-size:30px;">座右銘:</span><span style="font-size:25px;">在尿都憋不住的年紀卻憋住了想你。</span>
-""", unsafe_allow_html=True)
+st.write("這裡是流體靜力學實驗的詳細內容。")
 
 
 # 在這裡添加實驗一的具體內容，如圖表、數據等
