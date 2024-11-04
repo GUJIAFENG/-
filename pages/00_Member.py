@@ -17,3 +17,21 @@ st.write("""
 <span style="font-size:20px;">機械設計系 41023118 吳政憲</span><br>
 """, unsafe_allow_html=True)
 st.image("./img/2.jpg", width=350)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.write("""
+<span style="font-size:20px;">機械設計系 41023113 王翔楷</span><br>
+""", unsafe_allow_html=True)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.write("""
+<span style="font-size:20px;">機械設計系 41023156 白松桓</span><br>
+""", unsafe_allow_html=True)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.write("""
+<span style="font-size:20px;">機械設計系 41039138 凃家豐</span><br>
+""", unsafe_allow_html=True)
