@@ -1,8 +1,8 @@
 import streamlit as st
 
 
-st.markdown(""" <h1 style='text-align: center;'>實驗一: 實驗目的</h1> """, unsafe_allow_html=True)
 
+st.markdown(""" <h1 style='text-align: center;'>實驗一: 實驗目的</h1> """, unsafe_allow_html=True)
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)
 
@@ -26,8 +26,7 @@ st.write("""
 水循環泵、驅動馬達、儲水槽、實驗台架、柏登壓力錶、流量控制閥、水衝擊台一套。
 """, unsafe_allow_html=True)
 
-
-st.image("./img/01/1104.png")
+st.image("./img/1104.png")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
