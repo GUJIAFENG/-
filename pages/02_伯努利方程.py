@@ -123,4 +123,6 @@ st.write("""
 <span style='color:blue; font-size:25px;'>捌、 實驗數據</span><br/>
 
 """, unsafe_allow_html=True)
+
+with open('report/第二組_實驗2_水衝擊實驗.xls', 'rb') as file: st.download_button( label="水衝擊實驗", data=file, file_name='水衝擊實驗.xls', mime='application/vnd.ms-excel' )
 # 在這裡添加實驗一的具體內容，如圖表、數據等
