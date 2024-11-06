@@ -3,7 +3,6 @@ import streamlit as st
 st.markdown(""" <h1 style='text-align: center;'>實驗二: 水衝擊實驗</h1> """, unsafe_allow_html=True)
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)
-<<<<<<< HEAD
 
 st.write("""
 <div style='text-align: center;'>
@@ -85,8 +84,8 @@ st.write("""
 8. 推導ρQV所得到之單位：<span style='color:red;'>(kg/m<sup>3</sup>) &times; (m<sup>3</sup>/s) &times; (m/s)</span>           。〈取ρ爲kg/m3,Q爲m3/s, V爲m/s〉          
 9. 預負荷300gw,總負荷2800gw,Q=30l /min ,噴嘴5mm作用在半圓形硯板,則實際負荷為<span style='color:red;'>24.5</span>N ,理論衝擊力<span style='color:red;'>12.75</span>N,誤差爲<span style='color:red;'>9.2</span>％。         
 """, unsafe_allow_html=True)
-=======
->>>>>>> 198dd46 (提交本地更改)
+
+
 
 st.write("""
 <div style='text-align: center;'>
