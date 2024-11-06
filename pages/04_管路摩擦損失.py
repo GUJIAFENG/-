@@ -78,3 +78,13 @@ st.write("""
 
 
 """, unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>陸、 實驗數據</span><br/>
+
+""", unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)
+
+with open('report/實驗四.xls', 'rb') as file: st.download_button( label="實驗4", data=file, file_name='實驗四.xls', mime='application/vnd.ms-excel' )

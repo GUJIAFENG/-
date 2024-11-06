@@ -125,4 +125,21 @@ st.write("""
 """, unsafe_allow_html=True)
 
 with open('report/第二組_實驗2_水衝擊實驗.xls', 'rb') as file: st.download_button( label="水衝擊實驗", data=file, file_name='水衝擊實驗.xls', mime='application/vnd.ms-excel' )
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>玖、 參考文獻</span><br/>
+
+""", unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)
+
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown(""" (參考1)[ J.P. Holman, Experimental Methods for Engineers, McGRAW-Hill.]
+                (參考2)[ R.S. Figliola and D.F. Beasley, Theory and Design for Mechanical Measurement, Wiley. ]
+                (參考3)[E.R.G. Eckert and R.J. Goldstein, Measurements in Heat Transfer, Hemishpere Publishing Co.] """)
+
+
 # 在這裡添加實驗一的具體內容，如圖表、數據等
