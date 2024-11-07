@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown(""" <h1 style='text-align: center;'>實驗三: </h1> """, unsafe_allow_html=True)
+st.markdown(""" <h1 style='text-align: center;'>實驗五:溫度與散熱實驗 </h1> """, unsafe_allow_html=True)
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)
 
@@ -45,30 +45,9 @@ st.write("""
 
 """, unsafe_allow_html=True)
 
+st.markdown("<br>", unsafe_allow_html=True)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 在這裡添加實驗一的具體內容，如圖表、數據等
-
+st.write("""
+<span style='color:blue; font-size:25px;'>陸、實驗數據</span><br/>
+暫無
+""", unsafe_allow_html=True)

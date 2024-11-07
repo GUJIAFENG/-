@@ -70,6 +70,36 @@ st.write("""
 <span style='color:red;'>4. 依據實驗數據及觀察結果，本實驗和一般衆多書籍所敍述之數據是否符合？若不符合，你認爲原因出在那裡，應如何改善。 </span><br/>
 """, unsafe_allow_html=True)
 
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>陸、測驗題</span><br/>
+
+1. 雷諾數公式<span style='color:red;'>Re=ρVD/μ</span>方程式。  
+
+2. Re 之物理意義<span style='color:red;'>慣性力與黏性力之比值</span>。
+
+3. 一般而言,Re大於 <span style='color:red;'>4000</span>,爲湍流,小於<span style='color:red;'>2300</span>爲層流。        
+
+4. 推導Re之單位:<span style='color:red;'>無因次</span>。   
+
+5. 以實驗室之 D=2.5cm 而言，若水之 μ =1x10-3N-s/m2,則在層流之狀況，其 V 應小於<span style='color:red;'>0.092</span>。          
+
+6. 在同上,在擾流之情況,V應大於:<span style='color:red;'>0.16</span>。
+
+7. 若管徑2cm,Q=10l/min,請問此時之Re=<span style='color:red;'>10600</span> N,，其流場應爲<span style='color:red;'>湍流</span>。    
+     
+8. Re 數之功用位:<span style='color:red;'>判斷流體為層流or擾流</span>。          
+
+""", unsafe_allow_html=True)
+
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>柒、實驗數據</span><br/>
+暫無
+""", unsafe_allow_html=True)
 
 # 在這裡添加實驗一的具體內容，如圖表、數據等
 
