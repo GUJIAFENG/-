@@ -23,19 +23,24 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 st.write("""
 <span style='color:blue; font-size:25px;'>貳、 儀器與設備</span><br/>
-水循環泵、驅動馬達、儲水槽、實驗台架、柏登壓力錶、流量控制閥、水衝擊台一套。
 """, unsafe_allow_html=True)
 
-st.image("./img/1104.png")
+st.image("./img/01/01-1.png")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.write("""
 <span style='color:blue; font-size:25px;'>參、 實驗原理</span><br/>
+研究流體力學的過程中，我們會遇到為數不少的無因次參數，如Re、Fr、Ma等， 但其中最為大家所熟知的則為Re，及雷諾數。
+其物理意義維慣性力與黏性力之比值，式中<span style='color:red;'>ρ、V、L、μ</span><br/>分別為密度、平均速度、特徵長度、絕對黏度(或動力黏度)，對一管流而言，特徵長度為直徑<span style='color:red; '>D</span><br/>
 
 """, unsafe_allow_html=True)
 
+st.write("""則 <span style='color:red; font-size:25px;'>Re=ρVL/μ ; Re=ρVD/μ</span><br/>   """, unsafe_allow_html=True)
+
 st.markdown("<br>", unsafe_allow_html=True)
+
+st.image("./img/01/01-2.png")
 
 st.write("""
 <span style='color:blue; font-size:25px;'>肆、實驗步驟</span><br/>
