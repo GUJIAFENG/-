@@ -79,6 +79,16 @@ st.write("""
 
 """, unsafe_allow_html=True)
 
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("這次實驗讓我學到如何測量液體的黏滯係數，以及黏度和溫度的關係。當溫度升高，液體流動性增加，黏度變小。這對我理解流體性質有很大幫助。")
+
+st.write("""
+在學習和未來工作中，這次實驗的經驗可以應用於設計流體傳輸系統，如管道或泵浦系統，了解不同條件下的流體行為有助於做出更好的設計。
+此外，熟悉儀器操作和精準測量也強化了我的實驗技能，這對未來的專業發展非常有用。
+""")
+
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.write("""

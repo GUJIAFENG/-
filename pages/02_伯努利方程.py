@@ -124,7 +124,7 @@ st.write("""
 
 """, unsafe_allow_html=True)
 
-with open('report/第二組_實驗2_水衝擊實驗.xls', 'rb') as file: st.download_button( label="水衝擊實驗", data=file, file_name='水衝擊實驗.xls', mime='application/vnd.ms-excel' )
+with open('report/實驗2.xls', 'rb') as file: st.download_button( label="水衝擊實驗", data=file, file_name='水衝擊實驗.xls', mime='application/vnd.ms-excel' )
 
 st.markdown("<br>", unsafe_allow_html=True)
 
