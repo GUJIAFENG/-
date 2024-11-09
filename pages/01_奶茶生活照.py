@@ -13,3 +13,8 @@ st.write("""
 """, unsafe_allow_html=True)
 
 st.image("./img/00/milktea.jpg", width=350)
+st.image("./img/01/01-2.jpg", width=350)
+st.image("./img/01/01-3.jpg", width=350)
+st.image("./img/01/01-4.jpg", width=350)
+st.image("./img/01/01-5.jpg", width=350)
+st.image("./img/01/01-6.jpg", width=350)
