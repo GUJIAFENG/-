@@ -13,10 +13,10 @@ st.write("""
 
 
 # 生成圖片列表
-images = [f"./img/02/02-{i}.jpg" for i in range(1, 13)]
+images = [f"./img/02/02-{i}.jpg" for i in range(1, 16)]
 
 # 每行顯示的圖片數量
-num_columns = 2
+num_columns = 3
 
 # 創建相簿佈局
 rows = len(images) // num_columns + 1

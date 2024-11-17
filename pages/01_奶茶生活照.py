@@ -12,9 +12,18 @@ st.write("""
 </div>
 """, unsafe_allow_html=True)
 
-st.image("./img/00/milktea.jpg", width=350)
-st.image("./img/01/01-2.jpg", width=350)
-st.image("./img/01/01-3.jpg", width=350)
-st.image("./img/01/01-4.jpg", width=350)
-st.image("./img/01/01-5.jpg", width=350)
-st.image("./img/01/01-6.jpg", width=350)
+st.markdown("<br>", unsafe_allow_html=True)
+
+images = [f"./img/01/01-{i}.jpg" for i in range(1, 13)]
+
+# 每行顯示的圖片數量
+num_columns = 3
+
+# 創建相簿佈局
+rows = len(images) // num_columns + 1
+for row in range(rows):
+    cols = st.columns(num_columns)
+    for col in range(num_columns):
+        index = row * num_columns + col
+        if index < len(images):
+            cols[col].image(images[index], use_column_width=True)
