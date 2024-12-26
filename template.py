@@ -6,5 +6,8 @@ st.title("熱流力實驗第七組")
 
 st.write("歡迎來到熱流力實驗報告。請從左側選單選擇要查看的實驗項目。")
 
+st.markdown("[熱流力實驗報告網址](https://app-hw-cs5afgmoezupd5aafan8k6.streamlit.app/)")
+
+
 # 不需要在這裡定義實驗項目列表，因為Streamlit會自動生成側邊欄
 
