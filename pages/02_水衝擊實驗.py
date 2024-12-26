@@ -114,7 +114,7 @@ for row in range(rows):
     for col in range(num_columns):
         index = row * num_columns + col
         if index < len(images):
-            cols[col].image(images[index], use_column_width=True)
+            cols[col].image(images[index], use_container_width=True)
 
 
 st.markdown("<br>", unsafe_allow_html=True)
