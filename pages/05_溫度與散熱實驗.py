@@ -91,11 +91,6 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.write("""
-<span style='color:blue; font-size:25px;'>伍、實驗結果與討論</span><br/>
-
-""", unsafe_allow_html=True)
-
 st.image("./img/05/0504.png")
 
 st.write("""
