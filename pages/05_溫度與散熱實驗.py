@@ -2,7 +2,7 @@ import streamlit as st
 
 st.markdown(""" <h1 style='text-align: center;'>實驗五:溫度與散熱實驗 </h1> """, unsafe_allow_html=True)
 
-st.markdown("<br><br><br>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 st.write("""
 <div style='text-align: center;'>
@@ -10,7 +10,7 @@ st.write("""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 st.write("""
 <span style='color:blue; font-size:25px;'>壹、 實驗目的</span><br/>
@@ -89,12 +89,21 @@ st.write("""
 
 st.markdown("<br>", unsafe_allow_html=True)
 
+
+
+
+
+st.write("""
+<span style='color:blue; font-size:25px;'>伍、實驗結果與討論</span>
+
+""", unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.image("./img/05/0504.png")
 
+st.markdown("<br>", unsafe_allow_html=True)
+
 st.write("""
-<span style='color:blue; font-size:25px;'>伍、實驗結果與討論</span><br/>
 1. <span style='color:red;'>溫度對LED的影響 LED的工作溫度升高主要由以下幾方面影響:</span><br/>
     
     半導體材料的能隙隨溫度升高而縮小，導致光子能量降低，影響發光效率。 
@@ -136,9 +145,4 @@ st.write("""
 
 
 
-st.markdown("<br>", unsafe_allow_html=True)
 
-st.write("""
-<span style='color:blue; font-size:25px;'>陸、實驗數據</span><br/>
-暫無
-""", unsafe_allow_html=True)
