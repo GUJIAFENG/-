@@ -180,10 +180,6 @@ st.image("./img/03/03-6.png")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.write("""
-<span style='color:blue; font-size:25px;'>陸、實驗數據</span><br/>
-暫無
-""", unsafe_allow_html=True)
 
 
 
