@@ -85,7 +85,7 @@ st.write("""
 
 st.write("""
 <span style='color:blue; font-size:25px;'>陸、實驗數據</span><br/>
-暫無
+
 """, unsafe_allow_html=True)
 
 st.image("./img/06/06-5.png")

@@ -121,3 +121,127 @@ st.write("""
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.image("./img/07/07-3.png")
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.markdown(""" <h1 style='text-align: center;'> 二、 原理與設計方法(機械設計與繪圖) </h1> """, unsafe_allow_html=True)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題一、創新夾持裝置機械設計</span><br/>
+1. 真空產生器設計與要求規範:鋁塊大小76x53x26mm,管路連接口D=3。
+ 
+2. 真空產生器設計方法
+""", unsafe_allow_html=True)
+
+st.image("./img/07/07-4.png")
+st.image("./img/07/07-5.png")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+
+3. 依據原理與工件大小之零組件設計圖
+
+""")
+
+st.image("./img/07/07-6.png")
+st.image("./img/07/07-7.png")
+st.image("./img/07/07-8.png")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題二、環境量測與控制裝置機械設計</span><br/>
+""", unsafe_allow_html=True)
+
+st.write("散熱片是通過熱的傳導方式進行散熱片。 傳導方式有：傳導、對流、輻射")
+
+st.write("""
+輻射： 熱能從熱源以電磁的形式直接發散出去,可以在真空中進行,傳熱效能取決於熱源的材料以及表面的顏色。
+
+傳導： 指分子之間的動能交換，能量較低的粒子和能量較高的粒子碰撞從而獲得能量,單獨一塊散熱片不能實現熱能的傳導的。
+
+對流： 透過熱的物質的運動來實現熱的傳遞,這意味着，熱能是來自於被氣體或者液體所包圍熱源,透過分子的移動來實現熱能的傳遞的,我們可以採用在散熱片上添加風扇的方法來實現強制對流。
+
+以下是2D 3D圖
+""")
+
+st.image("./img/07/07-9.png")
+st.image("./img/07/07-10.png")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown(""" <h1 style='text-align: center;'> 三、 實驗量測與數據分析 </h1> """, unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題一 創新夾持裝置機械設計</span><br/>
+
+""", unsafe_allow_html=True)
+
+st.write("1. 實驗測量數據")
+
+
+st.image("./img/07/07-11.png")
+
+st.write("1. 選擇模態")
+
+st.image("./img/07/07-12.png")
+
+st.write("2. 匯入圖檔")
+
+st.image("./img/07/07-13.png")
+
+st.write("3. 設置網格")
+
+st.image("./img/07/07-14.png")
+
+st.write("4. 設置入口、出口、牆壁")
+
+st.image("./img/07/07-15.png")
+
+st.image("./img/07/07-16.png")
+
+st.image("./img/07/07-17.png")
+
+st.write("5. 設置環境")
+
+st.image("./img/07/07-18.png")
+
+st.write("6. 設置邊界條件")
+
+st.image("./img/07/07-19.png")
+
+st.image("./img/07/07-20.png")
+
+st.write("7. 最佳化設置、計算設置")
+
+st.image("./img/07/07-21.png")
+
+st.write("8. 結果分析")
+
+st.image("./img/07/07-22.png")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題二、環境量測與控制裝置機械設計</span><br/>
+
+""", unsafe_allow_html=True)
+
+st.write("8. 實驗分析數據")
+
+with open('report/07.xlsx', 'rb') as file: st.download_button( label="Heat Sink Design", data=file, file_name='Heat Sink Design.xlsx', mime='application/vnd.ms-excel' )
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown(""" <h1 style='text-align: center;'> 四、 結果與討論 </h1> """, unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown(""" <h1 style='text-align: center;'> 五、 組內分工表 </h1> """, unsafe_allow_html=True)
+
+st.image("./img/07/07-23.jpg")
