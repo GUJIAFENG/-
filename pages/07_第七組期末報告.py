@@ -232,7 +232,7 @@ st.write("""
 
 """, unsafe_allow_html=True)
 
-st.write("8. 實驗分析數據")
+st.write("1. 實驗分析數據")
 
 with open('report/07.xlsx', 'rb') as file: st.download_button( label="Heat Sink Design", data=file, file_name='Heat Sink Design.xlsx', mime='application/vnd.ms-excel' )
 
