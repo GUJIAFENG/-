@@ -97,7 +97,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 st.write("""
 <span style='color:blue; font-size:25px;'>主題二、環境量測與控制裝置機械設計</span><br/>
- 1. 真空產生器的特點:
+
 """, unsafe_allow_html=True)
 
 
@@ -106,16 +106,13 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.write("""
 
 1.	散熱器元件或模組的特點與功能介紹
-    散熱片，以導熱性佳、質輕、易加工之金屬，貼附於發熱表面，以複合的熱交換模式來散熱。
-    散熱片不需要額外的驅動能源就能執行散熱，是最典型的被動性散熱元件。
-    每種散熱片材質材料其導熱性能是不同的，按導熱性能從高到低排列，分別是銀，銅，鋁，鋼，
-    不過如果用銀來作散熱片會太昂貴，最好的方案為採用銅質。雖然鋁便宜得多，但顯然導熱性就不如銅好（大約只有銅的百分之五十多點）。
-    常用的散熱片材質是銅和鋁合金，二者各有其優缺點。
-    銅的導熱性好，但價格較貴，加工難度較高，重量過大，熱容量較小，而且容易氧化。
-    純鋁太軟，不能直接使用，都是使用的鋁合金才能提供足夠的硬度。
-    鋁合金的優點是價格低廉，重量輕，但導熱性比銅就要差很多。
-    有些散熱器就各取所長，在鋁合金散熱器底座上嵌入一片銅板。
-
+散熱片是一種利用金屬材料高導熱性的元件，通過貼附在發熱表面來進行熱量傳導，並採用複合熱交換模式來達到散熱效果。
+由於其無需額外的能源驅動，因此屬於典型的被動式散熱元件。散熱片材料的導熱性能比較散熱片的性能與其材質息息相關，
+不同金屬的導熱性能從高到低排列依次為：銀>銅>鋁>鋼儘管銀的導熱性最佳，但由於成本過於昂貴，實際應用中最常見的是銅和鋁合金。
+兩者各有優缺點：銅材散熱片:優點:導熱性極佳(比鋁高約2倍)。缺點：價格較高。加工難度大，適用範圍受限。
+重量大，可能增加設備負擔。熱容量小，且容易氧化影響外觀和性能。鋁合金散熱片：優點：質量輕，適合需要減輕設備重量的應用。
+價格低廉，加工性佳，適合大規模生產。缺點：導熱性僅為銅的一半左右，散熱性能相對較差。材料結合的應用與優化為了結合兩種材質的優勢，
+有些散熱器在鋁合金底座中嵌入銅板，實現良好的散熱性能和成本控制。這種結構設計在性能與經濟性之間找到了平衡，是市場上的一種常見選擇。
 """)
 
 st.markdown("<br>", unsafe_allow_html=True)
@@ -147,8 +144,30 @@ st.write("""
 """)
 
 st.image("./img/07/07-6.png")
+st.write("接頭規格")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.image("./img/07/07-6-1.png")
+st.write("2D工程圖")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.image("./img/07/07-6-2.png")
+st.write("3D前視圖")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.image("./img/07/07-6-3.png")
+st.write("3D等角視圖")
+
 st.image("./img/07/07-7.png")
+st.write("實體圖1")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
 st.image("./img/07/07-8.png")
+st.write("實體圖2")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -165,7 +184,6 @@ st.write("""
 
 對流： 透過熱的物質的運動來實現熱的傳遞,這意味着，熱能是來自於被氣體或者液體所包圍熱源,透過分子的移動來實現熱能的傳遞的,我們可以採用在散熱片上添加風扇的方法來實現強制對流。
 
-以下是2D 3D圖
 """)
 
 st.image("./img/07/07-9.png")
@@ -236,12 +254,83 @@ st.write("1. 實驗分析數據")
 
 with open('report/07.xlsx', 'rb') as file: st.download_button( label="Heat Sink Design", data=file, file_name='Heat Sink Design.xlsx', mime='application/vnd.ms-excel' )
 
-st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("<br><br><br>", unsafe_allow_html=True)
 
 st.markdown(""" <h1 style='text-align: center;'> 四、 結果與討論 </h1> """, unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.markdown(""" <h1 style='text-align: center;'> 五、 組內分工表 </h1> """, unsafe_allow_html=True)
 
-st.image("./img/07/07-23.jpg")
+st.image("./img/07/07-4-1.png")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.image("./img/07/07-4-2.jpg")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題一 創新夾持裝置機械設計</span><br/>
+
+""", unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.image("./img/07/07-23.png")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""實驗後發現電腦模擬出來和實際測量差距極大,我們認為因為圖和實際加工出來有稍微尺寸上的公差,
+            還有鑽頭在鑽時的擴孔沒有考慮進去，在結果出來誤差數據相當的大，所以在實驗前應該將這些變數也考慮進去，
+            在設計時也須注意這些細節。
+            """)
+
+
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題二、環境量測與控制裝置機械設計</span><br/>
+
+""", unsafe_allow_html=True)
+
+st.image("./img/07/07-24.png")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write(""" 電腦模擬出的數據與實際測量的，會因為外界的因素而導致數據上的誤差，考試那天隨著濕氣上的不同、散熱片的狀態，是否有生鏽或有損壞等等的問題，
+             都會影響測出來的數據，而電腦模擬出來的數據，是以無外界、無任何其他因素影響，以完美的情況所計算出來的，所以數據會因此而有誤差。
+             """)
+
+
+
+
+st.markdown(""" <h1 style='text-align: center;'> 五、結論 </h1> """, unsafe_allow_html=True)
+
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題一 創新夾持裝置機械設計</span><br/>
+
+""", unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write(""" 透過這次的作業,老師利用課堂上介紹的真空原理,並看過操作示範,讓我們親手設計尺寸並製作實體,再利用Ansys程式進行模擬,
+             比較實驗與模擬結果的數據差異。我們發現實驗結果的誤差值相當大，這促使我們深入思考並反省為何實驗結果會與模擬值不一致。經過組員討論後，
+             我們認為造成誤差的主要原因可能包括以下幾點：繪圖時忽略了加工過程中鑽頭前端鑽唇的特性，
+             以及實際加工中可能出現的公差。這些在繪圖階段未能充分考慮到的微小尺寸偏差，最終導致我們的實驗誤差值偏大。
+             """)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("""
+<span style='color:blue; font-size:25px;'>主題二、環境量測與控制裝置機械設計</span><br/>
+
+""", unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write(""" 在這次實驗中，我們第一次測量的結果發現，散熱片頂部的溫度竟然比底部更高，這與模擬數據的預測完全不一致。
+             經過組員討論並向老師請教問題可能的原因，我們了解到這可能是因為實驗裝置過於密集，導致散熱空間不足，熱量無法有效散出，
+             反而使整個裝置溫度逐漸升高，未能達到理想的散熱效果。隨後，我們進行了第二次測量，這次採取了多次測量不同部位的方式，
+             結果顯示數據與模擬結果更為接近。透過這次實驗，我們深刻體會到模擬在實驗設計中的重要性。在實驗前進行模擬並查閱相關資料，
+             可以幫助我們提高實驗的準確性。同時，這次經驗也提醒我們，實驗過程中必須謹慎求證，不能掉以輕心。
+             """)
