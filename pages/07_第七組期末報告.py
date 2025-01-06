@@ -241,7 +241,7 @@ st.image("./img/07/07-21.png")
 
 st.write("8. 結果分析")
 
-st.image("./img/07/07-22.png")
+st.image("./img/07/07-22.jpg")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
