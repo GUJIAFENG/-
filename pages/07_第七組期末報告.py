@@ -161,12 +161,12 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.image("./img/07/07-6-3.png")
 st.write("3D等角視圖")
 
-st.image("./img/07/07-7.png")
+st.image("./img/07/07-7.jpg")
 st.write("實體圖1")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.image("./img/07/07-8.png")
+st.image("./img/07/07-8.jpg")
 st.write("實體圖2")
 
 st.markdown("<br>", unsafe_allow_html=True)
